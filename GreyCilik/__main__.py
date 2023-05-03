@@ -89,7 +89,7 @@ PM_START_TEXT = """
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
 ✪ maintenance by @Lerrdab
-✪Hit /help to see my available commands.
+✪ Hit /help to see my available commands.
 """
 
 buttons = [
