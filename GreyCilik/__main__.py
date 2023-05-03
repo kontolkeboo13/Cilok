@@ -82,13 +82,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/a807460d64ac73c5dc83a.jpg)
+*Hello mekk {} !*
+✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/95f178b6b1a64e5eea98c.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+✪ maintenance by @Lerrdab
+✪Hit /help to see my available commands.
 """
 
 buttons = [
@@ -379,7 +380,7 @@ def cilik_about_callback(update, context):
                     InlineKeyboardButton(text="Notes", callback_data="cilik_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="cilik_support"),
+                    InlineKeyboardButton(text="Support", callback_data="xxGRAMZ"),
                     InlineKeyboardButton(text="Credits", callback_data="cilik_credit"),
                  ],
                  [
@@ -442,8 +443,8 @@ def cilik_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/CilikSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/CilikProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/lapakkroleplayer"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/xxGRAMZ"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="cilik_"),
